@@ -12,11 +12,10 @@ function App(props) {
     return (
   <>
   <div className="container"></div>
-  <header>{props.title}</header>
-  <section className="dresses"></section>
-  <section className="shoes"></section>
-  <section className="acessories"></section>
-  <footer></footer>
+  <Header>{props.title}</Header>
+  <Dresses></Dresses>
+  <Shoes></Shoes>
+  <Footer>{props.year}{props.author}</Footer>
 
 
   </>
