@@ -4,13 +4,13 @@ import './style.css';
 
 const Product = () => {
   
+    const image = "";
+    const name = "";
+    const description = "";
+    const price = "";
   
   return (
         <>
-<header class="header">
-    <h1 class="header__title">Móda</h1>
-    <p class="header__description">Stylové oblečení a doplňky pro každý den</p>
-</header>
 
 
 
