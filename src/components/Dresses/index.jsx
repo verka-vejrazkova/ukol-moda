@@ -6,8 +6,6 @@ const Dresses = () => {
     return (
     <>
     
-			<h2>Šaty</h2>
-			
 
     </>
     );

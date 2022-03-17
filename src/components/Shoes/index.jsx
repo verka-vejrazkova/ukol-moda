@@ -6,7 +6,8 @@ const Shoes = () => {
   
   
   return (
-        <h2>Boty</h2>
+    <>
+    </>
 
   )}
 
