@@ -7,17 +7,18 @@ import Dresses from './components/Dresses';
 import Shoes from './components/Shoes';
 import Product from './components/Product';
 import Footer from './components/Footer';
+import Accessories from '/components/Accessories'
 
 
 function App(props) {
     return (
   <>
   <div className="container">
-  <Header title=“Móda” /> 
+  <Header title="Móda"/> 
   <Dresses></Dresses>
   <Shoes></Shoes>
-  <Product>{props.image}{props.name}{props.description}{props.price}</Product>
-  <Footer>{props.year}{props.author}</Footer>
+  <Product name description price />
+  <Footer year={2022} author="Czechitas"/>
 
   </div>
   </>
