@@ -3,6 +3,7 @@ import './style.css';
 
 
 
+
 const Product = ({image, name, description, price}) => {
   
     

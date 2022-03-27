@@ -7,7 +7,7 @@ import Dresses from './components/Dresses';
 import Shoes from './components/Shoes';
 import Product from './components/Product';
 import Footer from './components/Footer';
-import Accessories from '/components/Accessories';
+import Accessories from './components/Accessories';
 import { name } from 'file-loader';
 
 
@@ -20,9 +20,7 @@ function App(props) {
   <Shoes/>
   <Product name description price />
   <Footer year={2022} author="Czechitas"/>
-  <Accessories  
-        name='Modrá kabelka' description='Efektní kožená kabelka v krásné modré barvě poskytne dostatek prostoru pro váš mobil, peněženku a další nezbytnosti.' price='3590 Kč'
-        />
+  <Accessories/>
 
   </div>
   </>
