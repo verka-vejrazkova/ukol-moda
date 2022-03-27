@@ -2,7 +2,8 @@ import React from 'react';
 import './style.css';
 
 
-const Product = ({name, description, price}) => {
+
+const Product = ({image, name, description, price}) => {
   
     
   return (
