@@ -9,8 +9,9 @@ const Dresses = ({name, description, price}) => {
             <img class="product__image" src="assets/${image}" alt="{image}"/>
             <div class="product__content">
                 <h3 class="product__name">{name}</h3>
-                <p class="product__description">{description}</p>
-                <p class="product__price">{price}</p>
+                <Product name='1' description='1' price='1' />
+                <Product name='2' description='2' price='2' />
+                <Product name='3' description='3' price='3' />
             </div>
         </div>
         

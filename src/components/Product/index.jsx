@@ -4,7 +4,7 @@ import './style.css';
 
 
 
-const Product = ({image, name, description, price}) => {
+const Product = ({name, description, price}) => {
   
     
   return (
