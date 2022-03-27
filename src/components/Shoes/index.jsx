@@ -4,18 +4,20 @@ import './style.css';
 
 const Shoes = ({name, description, price}) => {
   
-    
   return (
-    <div class="product">
-    <img class="product__image" src="assets/${image}" alt="{image}"/>
-    <div class="product__content">
-        <h3 class="product__name">{name}</h3>
-        <p class="product__description">{description}</p>
-        <p class="product__price">{price}</p>
-    </div>
-</div>
 
-  );
+    <section className="shoes">
+<h2><Boty></Boty></h2>
+<div className="products"> 
+
+<Product image='running-shoes' name='Běhací tenisky' description='Růžová s kontrastními šedými a bílými detaily? Veliká paráda! Tyhle tenisky jsou další srdcová záležitost.' price='1790 Kč' />
+<Product image='shiny-shoes' name='Třpytivé lodičky' description='Elegantní třpyticé lodičky, které padnou skoro ke každému outfitu. Toto nesmí ve vašem šatníku chybět.' price='2950 Kč' />
+<Product image='red-shoes' name='Červené botičky' description='Extravagantní červené boty s vysokým šnerováním. V těchto botách se zá vámi budou všichni otáčet.' price='6200 Kč' />
+   
+    </div>
+    </section>
+);
+
   
     }
 

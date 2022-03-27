@@ -18,7 +18,7 @@ function App(props) {
   <Header title="Móda"/> 
   <Dresses/>
   <Shoes/>
-  <Product name description price />
+  <Product/>
   <Footer year={2022} author="Czechitas"/>
   <Accessories/>
 

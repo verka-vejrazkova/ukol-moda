@@ -4,18 +4,20 @@ import './style.css';
 
 const Dresses = ({name, description, price}) => {
     
-        return (
-            <div class="product">
-            <img class="product__image" src="assets/${image}" alt="{image}"/>
-            <div class="product__content">
-                <h3 class="product__name">{name}</h3>
-                <Product name='1' description='1' price='1' />
-                <Product name='2' description='2' price='2' />
-                <Product name='3' description='3' price='3' />
-            </div>
+    return (
+
+        <section className="dress">
+  <h2>Šaty</h2>
+  <div className="products"> 
+
+  <Product image='red-dress' name='Červené šaty' description='V barvě jahod! Krátké šaty v sytě červeném odstínu Váš šatník nekompromisně nabijí energií.' price='2290 Kč' />
+  <Product image='flower-dress' name='Květované šaty' description='Vzdušné, rozevláté a především velmi pohodlné! Tyhle šaty od dánské značky zkrátka nebudete chtít sundat.' price='3100 Kč' />
+  <Product image='yellow-dress' name='Žluté šaty' description='Žluté jako slunce! Volnější plátěné šaty s vypasovanou siluetou mají potenciál slušet opravdu každé postavě. ' price='4250 Kč' />
+       
         </div>
-        
-          );
+        </section>
+    );
+
 
 }
 
