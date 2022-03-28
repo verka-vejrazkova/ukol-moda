@@ -8,7 +8,7 @@ import Shoes from './components/Shoes';
 import Product from './components/Product';
 import Footer from './components/Footer';
 import Accessories from './components/Accessories';
-import { name } from 'file-loader';
+
 
 
 function App(props) {
