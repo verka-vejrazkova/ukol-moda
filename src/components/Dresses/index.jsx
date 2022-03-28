@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-
+import Product from '../Product';
 
 const Dresses = ({name, description, price}) => {
     
