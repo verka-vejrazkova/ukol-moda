@@ -18,9 +18,9 @@ function App(props) {
   <Header title="Móda"/> 
   <Dresses/>
   <Shoes/>
-  <Product/>
-  <Footer year={2022} author="Czechitas"/>
   <Accessories/>
+  <Footer year={2022} author="Czechitas"/>
+  
 
   </div>
   </>

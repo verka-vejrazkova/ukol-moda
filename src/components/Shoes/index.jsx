@@ -6,7 +6,7 @@ import runningShoes from '../assets/running-shoes.jpg'
 import shinyShoes from '../assets/shiny-shoes.jpg'
 import redShoes from '../assets/red-shoes.jpg'
 
-const Shoes = ({name, description, price}) => {
+const Shoes = ({image, name, description, price}) => {
   
   return (
 
